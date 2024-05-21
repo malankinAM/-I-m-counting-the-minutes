@@ -84,3 +84,12 @@ function lightsOn() {
   return tl;
   
 }
+
+
+// Функция для перезагрузки страницы
+function reloadPage() {
+    location.reload();
+}
+
+// Установка таймера на 45 секунд (45000 миллисекунд)
+setTimeout(reloadPage, 25000);
